@@ -1,6 +1,6 @@
 import random
 
-data = open("./data.txt")
+data = open("./nouns.txt")
 
 nouns = [i.replace("\n", "") for i in data.readlines()]
 
