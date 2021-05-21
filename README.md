@@ -1,11 +1,20 @@
-#  service-generator
+# Service Generator
 
-### The one service to rule all them services : *Service Generator*
+Service Generator is a Python script to generate random "as services" that you can later post in a Facebook shitposting group. Coming up with this dumb joke didn't take much effort in the first place but now you can spam these even faster.
 
-### Just run this thing by typing 
-#### -- *python3 main.py*
-##### or
-#### -- python main.py
-##### (for the Windows people)
 
-### And you have a fresh shitpost ready to be posted *(and quite possibly rejected)*
+
+## Usage
+
+```bash
+python3 main.py <n>
+OR
+python3 main.py
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
