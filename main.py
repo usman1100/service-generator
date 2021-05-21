@@ -12,11 +12,14 @@ if len(sys.argv) == 2:
 else:
     times = 1
 
-nouns = open("./nouns.txt")
-adjectives = open("./adjectives.txt")
+nounsFile = open("./nouns.txt")
+adjectivesFile = open("./adjectives.txt")
 
-nouns = [i.replace("\n", "") for i in nouns.readlines()]
-adjectives = [i.replace("\n", "") for i in adjectives.readlines()]
+nouns = [i.replace("\n", "") for i in nounsFile.readlines()]
+adjectives = [i.replace("\n", "") for i in adjectivesFile.readlines()]
+
+nounsFile.close()
+adjectivesFile.close()
 
 for i in range(times):
     service = random.choice(nouns).capitalize()
